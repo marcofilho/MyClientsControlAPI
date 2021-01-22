@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {}
+    "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {
+    "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectUniqueName": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj",
         "projectName": "DevIO.Business",
-        "projectPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "C:\\Users\\NOTE 127\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\obj\\",
+        "outputPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

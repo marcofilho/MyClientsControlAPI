@@ -20,7 +20,7 @@ namespace DevIO.Data.Mappings
 
             builder.Property(p => p.Cpf)
                .IsRequired()
-               .HasColumnType("varchar(14)");
+               .HasColumnType("varchar(11)");
 
             builder.Property(p => p.DataNascimento)
                .IsRequired()

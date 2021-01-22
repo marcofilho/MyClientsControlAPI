@@ -14,7 +14,7 @@ namespace DevIO.Data.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(200)");
 
-            builder.ToTable("Telefones");
+            builder.ToTable("MidiasSociais");
         }
     }
 }

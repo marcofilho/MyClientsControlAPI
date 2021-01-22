@@ -10,3 +10,18 @@ C:\Users\NOTE 127\Downloads\14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\
 C:\Users\NOTE 127\Downloads\14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
 C:\Users\NOTE 127\Downloads\14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
 C:\Users\NOTE 127\Downloads\14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csprojAssemblyReference.cache
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.runtimeconfig.json
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.runtimeconfig.dev.json
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\MyClientsAPI\Back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.genruntimeconfig.cache

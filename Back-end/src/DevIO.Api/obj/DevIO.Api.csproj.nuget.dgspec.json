@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Api\\DevIO.Api.csproj": {}
+    "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Api\\DevIO.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Api\\DevIO.Api.csproj": {
+    "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Api\\DevIO.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectUniqueName": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Api\\DevIO.Api.csproj",
         "projectName": "DevIO.Api",
-        "projectPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Api\\DevIO.Api.csproj",
         "packagesPath": "C:\\Users\\NOTE 127\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Api\\obj\\",
+        "outputPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj"
               },
-              "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Data\\DevIO.Data.csproj": {
-                "projectPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Data\\DevIO.Data.csproj"
+              "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Data\\DevIO.Data.csproj": {
+                "projectPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Data\\DevIO.Data.csproj"
               }
             }
           }
@@ -106,6 +106,12 @@
               "target": "Package",
               "version": "[3.1.4, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.Extensions.Diagnostics.HealthChecks": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -145,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {
+    "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectUniqueName": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj",
         "projectName": "DevIO.Business",
-        "projectPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "C:\\Users\\NOTE 127\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\obj\\",
+        "outputPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -208,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Data\\DevIO.Data.csproj": {
+    "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Data\\DevIO.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectUniqueName": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Data\\DevIO.Data.csproj",
         "projectName": "DevIO.Data",
-        "projectPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Data\\DevIO.Data.csproj",
         "packagesPath": "C:\\Users\\NOTE 127\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Data\\obj\\",
+        "outputPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -236,8 +242,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "C:\\Users\\NOTE 127\\Downloads\\14 - ProjetoFinal\\back-end\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "C:\\Projetos\\MyClientsAPI\\Back-end\\src\\DevIO.Business\\DevIO.Business.csproj"
               }
             }
           }
@@ -260,6 +266,12 @@
               "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.4, )"
             }
