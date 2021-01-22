@@ -1,0 +1,39 @@
+<div class="container main-container">
+    <h1>Detalhes do {{ cliente.nome }}</h1>
+
+    <div>
+        <h4>Informação somente leitura</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                <label class="control-label">Nome</label>
+            </dt>
+            <dd class="col-sm-10">
+                {{ cliente.nome }}
+            </dd>
+            <dt class="col-sm-2">
+                <label class="control-label">CPF</label>
+            </dt>
+            <dd class="col-sm-10">
+                {{ cliente.cpf }}
+            </dd>
+            <dt class="col-sm-2">
+                <label class="control-label">RG</label>
+            </dt>
+            <dd class="col-sm-10">
+                {{ cliente.rg }}
+            </dd>
+          
+        </dl>
+        <div class="row">
+            <br>
+            <iframe width="100%" height="450" frameborder="0" style="border:0; padding-bottom: 50px;"
+                [src]="enderecoMap" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div>
+        <a class="btn btn-dark" [routerLink]="['/clientes/editar',cliente.id]">Editar</a>&nbsp;
+        <a class="btn btn-info" [routerLink]="['/clientes/listar-todos']">Voltar</a>
+    </div>
+</div>

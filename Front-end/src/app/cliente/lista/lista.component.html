@@ -1,0 +1,43 @@
+<div class="container main-container">
+
+    <h1>Lista de Clientes</h1>
+
+    <p>
+        <a class="btn btn-info" [routerLink]="['/clientes/adicionar-novo']">Novo Cliente</a>
+    </p>
+
+    <table class="table table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>RG</th>
+                <th>DataNascimento</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tr *ngFor="let cliente of clientes">
+            <td>
+                {{ cliente.nome }}
+            </td>
+            <td>
+                {{ cliente.cpf }}
+            </td>
+            <td>
+                {{ cliente.rg }}
+            </td>
+
+            <td class="text-right">
+                <a class="btn btn-info" [routerLink]="['/clientes/detalhes',cliente.id]">
+                    <span class="fa fa-search"></span>
+                </a>&nbsp;
+                <a class="btn btn-warning" [routerLink]="['/clientes/editar',cliente.id]">
+                    <span class="fa fa-pencil-alt"></span>
+                </a>&nbsp;
+                <a class="btn btn-danger" [routerLink]="['/clientes/excluir',cliente.id]">
+                    <span class="fa fa-trash"></span>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>

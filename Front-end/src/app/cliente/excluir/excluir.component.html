@@ -1,0 +1,28 @@
+<div class="container main-container">
+    <h3>Tem certeza que deseja excluir o cliente {{ cliente.nome }} ?</h3>
+    <hr />
+
+    <div class="alert alert-danger" *ngIf="errors.length > 0">
+        <h3 id="msgRetorno">Opa! Alguma coisa não deu certo:</h3>
+        <ul>
+            <li *ngFor="let error of errors">{{ error }}</li>
+        </ul>
+    </div>
+
+    <dl class="row">
+        <dt class="col-sm-2">
+            <label class="control-label">Nome</label>
+        </dt>
+        <dd class="col-sm-10">
+            {{ cliente.nome }}
+        </dd>
+    </dl>
+    <div class="row">
+        <br>
+    </div>
+
+    <div>
+        <a class="btn btn-danger" href="javascript:void(0)" (click)="excluirEvento()">Excluir</a>&nbsp;
+        <a class="btn btn-info" [routerLink]="['/clientes/listar-todos']">Voltar</a>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="container main-container">
+
+    <ngx-spinner bdColor="rgba(0, 0, 0, 0.8)" size="medium" color="#fff" type="pacman" [fullScreen]="true">
+        <p style="color: white"> Processando... </p>
+    </ngx-spinner>
+
+    <h1>Editar Cliente</h1>
+    <hr>
+    <form novalidate="novalidate" (ngSubmit)="editarCliente()" [formGroup]="clienteForm">
+
+        <div class="alert alert-danger" *ngIf="errors.length > 0">
+            <h3 id="msgRetorno">Opa! Alguma coisa não deu certo:</h3>
+            <ul>
+                <li *ngFor="let error of errors">{{ error }}</li>
+            </ul>
+        </div>
+
+        <input type="hidden" id="id" name="id" value="">
+        <input type="hidden" id="enderecoId" name="enderecoId" value="">
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+
+                <div>
+                    <label class="control-label">Nome</label>
+                    <div>
+                        <input class="form-control" id="nome" type="text" placeholder="Nome (requerido)"
+                            formControlName="nome" [ngClass]="{'is-invalid': displayMessage.nome }" />
+                        <span class="text-danger" *ngIf="displayMessage.nome">
+                            <p [innerHTML]="displayMessage.nome"></p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
